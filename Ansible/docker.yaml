@@ -22,7 +22,7 @@
         password: W@oundE221
 
     - name: Push image
-      command: docker push sevenajay/petstore:latest
+      command: docker push waounde221/petstore:latest
 
     - name: Run container
       command: docker run -d --name pet1 -p 8081:8080 waounde221/petstore:latest
